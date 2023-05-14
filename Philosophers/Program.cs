@@ -8,6 +8,7 @@ namespace Philosophers
     {
         static void Main(string[] args)
         {
+
             var count = 5;
             var table = new Table();
             var forks = Enumerable.Range(0, count).Select(_ => new Fork()).ToArray();
